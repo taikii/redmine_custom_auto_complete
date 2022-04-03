@@ -1,4 +1,4 @@
-class CustomAutoCompleteHookListener < Redmine::Hook::ViewListener
+class CustomAutoCompleteHook < Redmine::Hook::ViewListener
 
   def view_issues_form_details_bottom(context={})
     html = ""
