@@ -1,5 +1,7 @@
+require File.expand_path('lib/custom_auto_complete_hook', __dir__)
+
 Redmine::Plugin.register :redmine_custom_auto_complete do
-   name 'Redmine Custom Auto-Complete plugin'
+  name 'Redmine Custom Auto-Complete plugin'
   author 'Taiki'
   description 'This plugin adds auto-complete to the custom fields.'
   version '1.1.1'
